@@ -1,0 +1,14 @@
+.buttn{
+    font-size: 14px;
+    outline: none;
+    padding: 0.625rem 1rem;
+    min-width: 120px;
+    border-radius: 5px;
+    border-color: #5773ff;
+    /* margin-top: 1rem; */
+  }
+
+  .buttn:hover,
+.ms-dark-theme .btn:hover{
+  color: #fff;
+}

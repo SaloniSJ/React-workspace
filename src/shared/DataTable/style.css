@@ -1,0 +1,9 @@
+.pagination-parent-div {
+    float: 'right'; 
+    margin: '25px';
+}
+
+.pagination-record-div {
+    float: 'left';
+    margin: '15px';
+}

@@ -1,0 +1,41 @@
+.otpmaindiv{
+    margin-bottom: 25px;
+}
+
+/* .otp p {
+    color:#3D4C58;
+    font-size: 16px;
+    margin-bottom:19px;
+    font-weight:500
+    } */
+    
+    .otp input {
+    width: 42px;
+    height: 50px;
+    padding:0;
+   margin: 5px;
+    text-align:center;
+    border:none;
+    /* border-radius:5px; */
+    box-shadow:-1px 1px 9px 0 #a5a6a7;
+    font-size:25px
+    }
+    
+    .otp input:last-child {
+    margin-right:0
+    }
+    
+    .otp input::-webkit-inner-spin-button,.otp input::-webkit-outer-spin-button {
+    -webkit-appearance:none;
+    appearance:none;
+    margin:0
+    }
+    
+    .otp input:focus,.otp input.focus {
+    outline:none;
+    box-shadow:none;
+    background-color:#eef3f9
+    }
+    .center_box.otp{
+        justify-content: flex-start;
+    }

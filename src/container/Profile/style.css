@@ -1,0 +1,139 @@
+.myProfileWrapper {
+    margin-top: -230px;
+    margin-bottom: 100px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .myProfileWrapper {
+        margin-bottom: 90px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .myProfileWrapper {
+        margin-bottom: 80px;
+   }
+}
+@media (max-width: 767px) {
+    .myProfileWrapper {
+        margin-bottom: 70px;
+   }
+}
+.tabsBar {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tabsWrapper > div > div > span {
+    height: 3px;
+    background: #6258fb;
+}
+.tabsWrapper button {
+    padding: 46px 17px;
+    width: auto;
+    min-width: auto;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .tabsWrapper button {
+        padding: 20px 12px;
+   }
+}
+@media (min-width: 1201px) and (max-width: 1599px) {
+    .tabsWrapper button {
+        padding: 30px 15px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .tabsWrapper button {
+        padding: 15px 12px;
+   }
+}
+@media (max-width: 767px) {
+    .tabsWrapper button {
+        padding: 11px 12px;
+   }
+}
+@media (max-width: 1200px) {
+    .tabsWrapper button {
+        width: auto;
+        min-width: auto;
+        min-height: auto;
+   }
+}
+.tabsWrapper button > span {
+    display: block;
+    width: auto;
+}
+.tabsWrapper button > span img {
+    float: center;
+    margin-right: 11px;
+    max-width: 18px;
+}
+@media (max-width: 767px) {
+    .tabsWrapper button > span img {
+        max-width: 14px;
+        margin-top: 6px;
+        margin-right: 7px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .tabsWrapper button > span img {
+        max-width: 14px;
+        margin-top: 6px;
+        margin-right: 7px;
+   }
+}
+.tabsWrapper button > span > span {
+    padding: 0;
+}
+.tabsWrapper button > span > span span {
+    color: #444;
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 15px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+@media (max-width: 767px) {
+    .tabsWrapper button > span > span span {
+        font-size: 14px;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .tabsWrapper button > span > span span {
+        font-size: 16px;
+   }
+}
+
+.google-authenticator{
+    height: 50px;
+    width: 50px;
+    background-image: url('../../assets/img/google_authenticator.png');
+}
+
+.setup-div{
+    margin: 20px;
+}
+
+.cover-image{
+    height: 440px;
+    width: 1000px;
+    background: #f8f8f8;
+    border: 0.09rem dashed #e7e5ff;
+    box-sizing: border-box;
+    border-radius: 1px;
+    text-transform: capitalize;
+    color: #888; 
+    margin-right:1em;
+    display: block;
+}
+
+.cover-image-button{
+    box-sizing: border-box;
+    border-radius: 1px;
+    text-transform: capitalize;
+    color: #888; 
+}
